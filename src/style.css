@@ -1,0 +1,185 @@
+/* style add for all element */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: white;
+}a:hover{
+  color: white;
+}
+
+/* style for body */
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(./images/landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/* style root div */
+
+
+/* style navbar component ---------------------------------*/
+.navbar {
+  display: flex;
+  height: auto;
+  padding: 0px 20px;
+  background-image: linear-gradient(to right,rgba(33,24,75,.82) 0%,#112c67 100%);
+  width:100vw;
+  
+}
+
+.navbar h3{
+  font-size: 2rem;
+  font-weight: 700;
+  color:#fb813e;
+}
+
+
+
+.right-nav{
+  display: flex;
+  align-items: center;
+}
+.right-nav h5{
+  color: #DDDDDD;
+  margin-right: 10px;
+}
+.addhabit-btn, .detail{
+  cursor: pointer;
+  color: white;
+  background-color: #fb813e;
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 7px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px;
+}
+.detail:hover{
+  opacity: 0.7;
+}
+
+.addhabit-btn:hover{
+  opacity: 0.7;
+}
+/* modal */
+.modal-content{
+  background-image: linear-gradient(to right,rgba(33,24,75,.82) 0%,#112c67 100%);
+}
+.modal-header{
+  border: none;
+}
+.modal-footer{
+  border: none;
+}
+/* ---------------------------------------------------- */
+
+/* habits components style------------------------------ */
+.habits{
+  width: 100%;
+}
+
+/* habit under habits component */
+.habit{
+  margin-top: 20px;
+  width: 80%;
+  height: 100px;
+  background-image: linear-gradient(to right,rgba(33,24,75,.82) 0%,#112c67 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  border-radius: 10px; 
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.habit:hover{
+  background-color: #323232;
+}
+.habit-left{
+  display: flex;
+  align-items: center;
+}
+.habit-left i{
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #fb813e;
+  margin-right: 10px;
+}
+.day-complete{
+  color: #fb813e;
+  font-size: 1.1rem;
+  
+}
+.habit-right{
+  display: flex;
+  align-items: center;
+}
+.log-btn{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #fb813e;
+  padding: 10px;
+  border-radius: 7px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+}
+.log-btn:hover{
+  opacity: 0.7;
+}
+.log-btn i{
+  margin-right: 5px;
+}
+.fa-trash{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #fb813e;
+}
+
+.fa-trash:hover{
+  opacity: 0.7;
+}
+/* ------------------------------------------------------*/
+
+/* style week view container --------------------------- */
+.days-container{
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+/* style day view component */
+.day-container{
+  height: 100px;
+  width: 150px;
+  background-image: linear-gradient(to right,rgba(33,24,75,.82) 0%,#112c67 100%);
+  margin: 5px;
+  border-radius: 20px;
+  padding: 5px;
+}
+p{
+  margin: 0%;
+}
+.circle-icon{
+  font-size: 24px;
+  margin: 5px 11px;
+  /* color: #0B5ED7; */
+  cursor: pointer;
+}
+.active{
+  color: #fb813e;;
+}
+/* ------------------------------------------------------*/
